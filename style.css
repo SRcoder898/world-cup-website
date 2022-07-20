@@ -58,6 +58,13 @@ header{
 /* header style end */
 
 /* article area style start */
+.blog-area{
+    margin: 50px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 124px;  
+}
 .nav-area{
     width: 231%;
     background-color: black;
@@ -70,7 +77,7 @@ header{
 .nav-sec a{
     text-decoration: none;
     color: white;
-    
+
 }
 .nav-sec .button{
     display: block;
@@ -88,19 +95,80 @@ header{
     line-height: 25px;
 }
 
-  
-.blog-area{
-    margin: 50px;
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 124px;  
-}
 .article-area{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
-
-
+.blogs{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.blogs .article-detail{
+    padding: 10px;
+}
+.blogs .article-info{
+    padding: 10px;
+}
+.article-image img{
+    width: 310px;
+    height: 168px;
+    border-radius: 5px;
+}
+.article-detail button{
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.article-detail p{
+    font-weight: bold;
+    font-size: 12px;
+}
+.article-info{
+    display: inline-flex;
+    gap: 8px;
+    margin-left: 19px;
+    align-items: center;
+    margin-left: 4px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 /* article area style end */
+
+/* footer area style start */
+footer{
+    background-color: #161616;
+}
+.main-footer{
+    text-align: center;
+    padding: 50px;
+}
+.footer-head h3{
+    font-size: 27px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: white;
+}
+.hr hr{
+    width: 970px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.footer-nav{
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: gainsboro;
+    margin-right: 24px;
+    font-size: 11px;
+}
+.social-icon{
+    color: white;
+    letter-spacing: 11px;
+    font-size: 18px;
+}
+/* footer area style end */
