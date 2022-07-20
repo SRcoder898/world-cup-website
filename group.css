@@ -116,20 +116,10 @@ header{
     width: 310px;
     height: 168px;
 }
-.article-detail button{
-    padding: 14px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    background-color: white;
-    border-radius: 2px;
-    border: none;
-    background-color: #4E9CAF;
-    color: white;
-}
 .article-detail p{
+    margin-bottom: 20px;
     font-weight: bold;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 12px;
 }
 .article-info{
     display: inline-flex;
