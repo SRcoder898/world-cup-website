@@ -82,7 +82,10 @@ header:hover{
 .nav-sec a{
     text-decoration: none;
     color: white;
-
+}
+.nav-sec a:hover, #active{
+    background-color: #DD0000;
+    color: white;
 }
 .nav-sec .button{
     display: block;
