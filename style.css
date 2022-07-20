@@ -302,8 +302,7 @@ footer{
 
 @media screen and (min-width:769px) and (max-width:992px){
     .banner-area{
-        
-    
+        display: block;
     }
     .banner-head h1{
         text-align: center;
@@ -338,8 +337,7 @@ footer{
     .article-area {
         display: block;
         margin-top: 220px;
-        margin-left: -150px;
-        
+        margin-left: -150px;  
     }
     .article-image img{
         width: 378px
@@ -348,7 +346,4 @@ footer{
         width: 100px;
     }
 }
-    
-
-
 /* media quesry end */
