@@ -191,16 +191,14 @@ footer{
 
 /* media query start */
 @media screen and (max-width:576px){
+    .banner-area{
+        display: block;
+    
+    }
     .banner-head h1 {
         font-size: 20px;
         line-height: 30px;
         text-align: center;
-    }
-    .banner-image img{
-        width: 229px;
-        height: 220px;
-        margin-top: 331px;
-        margin-left: -205px;
     }
     .banner-head p{
     margin: 0;
@@ -252,9 +250,102 @@ footer{
 
 }
 
-@media screen and (min-width:577px) and(max-width:768px){
-    .banner-head h1 {
-        background-color: red;
+@media screen and (min-width:577px) and (max-width:768px){
+        .banner-area{
+            display: block;
+        
+        }
+        .banner-head h1{
+            text-align: center;
+            padding-top: 65px;
+        }
+        .banner-head p{
+            text-align: center;
+            padding-top: 26px;
+            margin: 0;
+        }
+        .banner-head button{
+            text-align: center;
+            margin-left: 121px;
+            margin-top: 22px;
+        }
+
+        .nav-area{
+            width: 0;
+        }
+        .nav-sec{
+            margin-left: 160px;
+            margin-top: -43px;
+        }
+        .blogs{
+            margin-bottom: 30px;
+        }
+        .blog-area{
+            margin: 0;
+            margin-bottom: 40px;
+            row-gap: 20px;
+        }
+        .article-area {
+            display: block;
+            margin-top: 220px;
+            margin-left: -150px;
+            
+        }
+        .article-image img{
+            width: 378px
+        }
+        .hr hr{
+            width: 100px;
+        }
+   
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .banner-area{
+        
+    
+    }
+    .banner-head h1{
+        text-align: center;
+        padding-top: 65px;
+    }
+    .banner-head p{
+        text-align: center;
+        padding-top: 26px;
+        margin: 0;
+    }
+    .banner-head button{
+        text-align: center;
+        margin-left: 121px;
+        margin-top: 22px;
+    }
+
+    .nav-area{
+        width: 0;
+    }
+    .nav-sec{
+        margin-left: 160px;
+        margin-top: -43px;
+    }
+    .blogs{
+        margin-bottom: 30px;
+    }
+    .blog-area{
+        margin: 0;
+        margin-bottom: 40px;
+        row-gap: 20px;
+    }
+    .article-area {
+        display: block;
+        margin-top: 220px;
+        margin-left: -150px;
+        
+    }
+    .article-image img{
+        width: 378px
+    }
+    .hr hr{
+        width: 100px;
     }
 }
     
