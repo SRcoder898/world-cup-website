@@ -186,14 +186,76 @@ footer{
     letter-spacing: 11px;
     font-size: 18px;
 }
+
 /* footer area style end */
 
 /* media query start */
-@media screen and (min-width:576px){
+@media screen and (max-width:576px){
     .banner-head h1 {
-        font-size: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .banner-image img{
+        width: 229px;
+        height: 220px;
+        margin-top: 331px;
+        margin-left: -205px;
+    }
+    .banner-head p{
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px
+;
+    }
+    .banner-head button{
+        text-align: center;
+        margin: 0;
+        margin-left: 40px;
+    }
+    .nav-area{
+        width: 0;
+    }
+    .nav-sec{
+        margin-left: 160px;
+        margin-top: -43px;
+    }
+    .blogs{
+        margin-bottom: 30px;
+    }
+    .blog-area{
+        margin: 0;
+        margin-bottom: 40px;
+        row-gap: 20px;
+    }
+    .article-area {
+        display: block;
+        margin-top: 220px;
+        margin-left: -150px;
+        
+    }
+    .article-image img{
+        width: 378px
+    }
+    .hr hr{
+        width: 100px;
+    }
+    .footer-nav a{
+        display: block;
+        margin-left: 30px;
+        margin-top: 23px;
+        font-size: 20px;
     }
 
+}
+
+@media screen and (min-width:577px) and(max-width:768px){
+    .banner-head h1 {
+        background-color: red;
+    }
 }
     
 
