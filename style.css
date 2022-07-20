@@ -331,14 +331,14 @@ footer{
     }
     .banner-head p{
         text-align: center;
-        padding-top: 26px;
+        padding-top: 15px;
         margin: 0;
         font-size: 12px;
         line-height: 23px;
     }
     .banner-head button{
         text-align: center;
-        margin-left: 100px;
+        margin-left: 60px;
         margin-top: 22px;
     }
 
@@ -348,7 +348,7 @@ footer{
     .nav-sec{
         margin-top: -43px;
         display: -webkit-inline-box;
-        margin-left: 200px;
+        margin-left: 100px;
         gap: 27px;
     }
     .blogs{
